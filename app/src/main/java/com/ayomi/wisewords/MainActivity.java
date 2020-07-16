@@ -2,12 +2,14 @@ package com.ayomi.wisewords;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -28,10 +30,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         mDrawerLayout = findViewById(R.id.drawer_layout);
         mNavigationView = findViewById(R.id.nav_view);
-
-        Menu menu = mNavigationView.getMenu();
-        menu.findItem(R.id.nav_logout).setVisible(false);
-        menu.findItem(R.id.nav_profile).setVisible(false);
 
         mNavigationView.bringToFront();
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -60,41 +58,39 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         switch (item.getItemId()) {
             case R.id.nav_home:
                 break;
-            case R.id.nav_cycle:
-                Toast.makeText(this, "clicked Cycle", Toast.LENGTH_SHORT).show();
+            case R.id.nav_wisdom_quotes:
+                Toast.makeText(this, "clicked Wisdom", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.nav_bus:
-                Toast.makeText(this, "Bus", Toast.LENGTH_SHORT).show();
+            case R.id.nav_motivational:
+                Toast.makeText(this, "Motivational", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.nav_car:
-                Toast.makeText(this, "Clicked Car", Toast.LENGTH_SHORT).show();
+            case R.id.nav_write_ups:
+                Toast.makeText(this, "Clicked Write-Ups", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.nav_login:
-                Toast.makeText(this, "Clicked Login", Toast.LENGTH_SHORT).show();
+            case R.id.nav_stories:
+                Toast.makeText(this, "Clicked Stories", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.nav_logout:
-                Toast.makeText(this, "Clicked Logout", Toast.LENGTH_SHORT).show();
+            case R.id.nav_app_info:
+                Toast.makeText(this, "Clicked App Info", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.nav_profile:
-                Toast.makeText(this, "Clicked Profile", Toast.LENGTH_SHORT).show();
+            case R.id.nav_changelog:
+               changeLog();
+                Toast.makeText(this, "Clicked Changelog", Toast.LENGTH_SHORT).show();
                 break;
-
+            case R.id.nav_survey:
+                Toast.makeText(this, "Clicked Survey", Toast.LENGTH_SHORT).show();
+                break;
             case R.id.nav_share:
                 Toast.makeText(this, "Clicked Share", Toast.LENGTH_SHORT).show();
                 break;
-
             case R.id.nav_rate:
                 Toast.makeText(this, "Clicked Rate", Toast.LENGTH_SHORT).show();
                 break;
-
         }
 
         mDrawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
-
-
-
 
     public void wisdomQuotes(View view) {
         Toast.makeText(this, "Wisdom Quote clicked", Toast.LENGTH_SHORT).show();
@@ -118,5 +114,21 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     public void motivationalQuotes(View view) {
         Toast.makeText(this, "Motivational Quote clicked", Toast.LENGTH_SHORT).show();
+    }
+
+    private void changeLog() {
+
+        AlertDialog.Builder mydialog = new AlertDialog.Builder(this);
+        LayoutInflater inflater = LayoutInflater.from(this);
+        View myview = inflater.inflate(R.layout.change_log, null);
+
+        mydialog.setView(myview);
+
+        final AlertDialog dialog = mydialog.create();
+
+        dialog.setCancelable(true);
+
+        dialog.show();
+
     }
 }

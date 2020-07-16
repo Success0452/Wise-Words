@@ -8,36 +8,35 @@
             android:title="Home" />
 
         <item
-            android:id="@+id/nav_cycle"
-            android:title="Cycle" />
+            android:id="@+id/nav_wisdom_quotes"
+            android:title="Wisdom Quotes" />
 
         <item
-            android:id="@+id/nav_bus"
-            android:title="Bus" />
+            android:id="@+id/nav_motivational"
+            android:title="Motivational Quotes" />
 
         <item
-            android:id="@+id/nav_car"
-            android:title="Car" />
+            android:id="@+id/nav_write_ups"
+            android:title="Write-Ups" />
+
+        <item
+            android:id="@+id/nav_stories"
+            android:title="Stories" />
 
     </group>
 
 
-    <item
-
-        android:title="Profile">
+    <item android:title="About">
 
         <menu>
             <group android:checkableBehavior="single">
 
                 <item
-                    android:id="@+id/nav_login"
-                    android:title="Login" />
+                    android:id="@+id/nav_app_info"
+                    android:title="App Info" />
                 <item
-                    android:id="@+id/nav_logout"
-                    android:title="Logout" />
-                <item
-                    android:id="@+id/nav_profile"
-                    android:title="Profile" />
+                    android:id="@+id/nav_changelog"
+                    android:title="Changelog" />
 
             </group>
         </menu>
@@ -45,9 +44,13 @@
     </item>
 
 
-    <item android:title="Communication">
+    <item android:title="Support Development">
 
         <menu>
+
+            <item
+                android:id="@+id/nav_survey"
+                android:title="Survey" />
             <item
                 android:id="@+id/nav_share"
                 android:title="Share" />
