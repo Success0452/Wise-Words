@@ -2,7 +2,7 @@
 
 <b> <i> A simple Application, which is desing for Quotes and stories...</i></b> 
 
-<b> This is project is created for open siurce contribution. </b>
+<b> This is project is created for open source contribution. </b>
 
 If you are interested in contributing to this project, you can easily follow the steps below to contribute:
 
