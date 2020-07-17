@@ -5,11 +5,13 @@
 
         <item
             android:id="@+id/nav_home"
-            android:title="Home" />
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"/>
 
         <item
             android:id="@+id/nav_wisdom_quotes"
-            android:title="Wisdom Quotes" />
+            android:title="Wisdom Quotes"
+            android:icon="@drawable/images"/>
 
         <item
             android:id="@+id/nav_motivational"
@@ -17,7 +19,8 @@
 
         <item
             android:id="@+id/nav_write_ups"
-            android:title="Write-Ups" />
+            android:title="Write-Ups"
+            android:icon="@drawable/ic_baseline_create_24"/>
 
         <item
             android:id="@+id/nav_stories"
@@ -33,10 +36,12 @@
 
                 <item
                     android:id="@+id/nav_app_info"
-                    android:title="App Info" />
+                    android:title="App Info"
+                    android:icon="@drawable/ic_baseline_info_24"/>
                 <item
                     android:id="@+id/nav_changelog"
-                    android:title="Changelog" />
+                    android:title="Changelog"
+                    android:icon="@drawable/ic_action_name"/>
 
             </group>
         </menu>
@@ -53,10 +58,12 @@
                 android:title="Survey" />
             <item
                 android:id="@+id/nav_share"
-                android:title="Share" />
+                android:title="Share"
+                android:icon="@drawable/ic_baseline_share_24"/>
             <item
                 android:id="@+id/nav_rate"
-                android:title="Rate" />
+                android:title="Rate"
+                android:icon="@drawable/ic_baseline_star_24"/>
 
         </menu>
 
