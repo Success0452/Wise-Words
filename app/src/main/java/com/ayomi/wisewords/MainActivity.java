@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -59,23 +60,26 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_home:
                 break;
             case R.id.nav_wisdom_quotes:
-                Toast.makeText(this, "clicked Wisdom", Toast.LENGTH_SHORT).show();
+                Intent wisdomIntent = new Intent(MainActivity.this, WisdomQuote.class);
+                startActivity(wisdomIntent);
                 break;
             case R.id.nav_motivational:
-                Toast.makeText(this, "Motivational", Toast.LENGTH_SHORT).show();
+                Intent motivationIntent = new Intent(MainActivity.this, Motivational.class);
+                startActivity(motivationIntent);
                 break;
             case R.id.nav_write_ups:
-                Toast.makeText(this, "Clicked Write-Ups", Toast.LENGTH_SHORT).show();
+                Intent writeupIntent = new Intent(MainActivity.this, WriteUp.class);
+                startActivity(writeupIntent);
                 break;
             case R.id.nav_stories:
-                Toast.makeText(this, "Clicked Stories", Toast.LENGTH_SHORT).show();
+                Intent storiesIntent = new Intent(MainActivity.this, Stories.class);
+                startActivity(storiesIntent);
                 break;
             case R.id.nav_app_info:
-                Toast.makeText(this, "Clicked App Info", Toast.LENGTH_SHORT).show();
+                appInfo();
                 break;
             case R.id.nav_changelog:
                changeLog();
-                Toast.makeText(this, "Clicked Changelog", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.nav_survey:
                 Toast.makeText(this, "Clicked Survey", Toast.LENGTH_SHORT).show();
@@ -130,5 +134,35 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         dialog.show();
 
+    }
+
+    private void appInfo() {
+
+        AlertDialog.Builder mydialog = new AlertDialog.Builder(this);
+        LayoutInflater inflater = LayoutInflater.from(this);
+        View myview = inflater.inflate(R.layout.app_info, null);
+
+        mydialog.setView(myview);
+
+        final AlertDialog dialog = mydialog.create();
+
+        dialog.setCancelable(true);
+
+        dialog.show();
+
+    }
+
+    private void appInformation() {
+        new AlertDialog.Builder(this).setIcon(R.drawable.fuoye).setTitle("About Fsocial")
+                .setMessage("Fsocial is a Social Media Application specifically Designed" +
+                        " to meet the social needs of Fuoye Student and its a Medium where you can " +
+                        "connect and chat with fuoye student both in Oye and Ikole Campus" +
+                        "(Aspirant who also wants to know more about Fuoye can Join ) Feel free to explore the Application" + "\n" + "\n" + "Version 2.1.0" + "\n" + "\n" + "\n" + " © 2020 Fsocial")
+                .setNegativeButton("Dismiss", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        MainActivity.super.onStart();
+                    }
+                }).create().show();
     }
 }

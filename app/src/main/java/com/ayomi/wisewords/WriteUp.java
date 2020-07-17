@@ -11,7 +11,8 @@ import android.widget.Toast;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class WisdomQuote extends AppCompatActivity {
+public class WriteUp extends AppCompatActivity {
+
     EditText author, quotes;
     Button btnsubmit;
 
@@ -21,7 +22,7 @@ public class WisdomQuote extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_wisdom_quote);
+        setContentView(R.layout.activity_write_up);
 
         author = findViewById(R.id.edtname);
         quotes = findViewById(R.id.edt_quotes);
@@ -41,7 +42,7 @@ public class WisdomQuote extends AppCompatActivity {
                     getValues();
                     //setContentView(R.layout.activity_main2);
                 } else{
-                    Toast.makeText(WisdomQuote.this, "All field required", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(WriteUp.this, "All field required", Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -52,7 +53,7 @@ public class WisdomQuote extends AppCompatActivity {
     private void getValues(){
 
         database = FirebaseDatabase.getInstance();
-        myRef = database.getReference("Wisdom Quotes");
+        myRef = database.getReference("Write Ups");
 
         String uniqueId = myRef.push().getKey();
 
@@ -61,7 +62,7 @@ public class WisdomQuote extends AppCompatActivity {
         user.setQuotes(quotes.getText().toString());
 
         myRef.child(uniqueId).setValue(user);
-        Toast.makeText(WisdomQuote.this, "Data Inputed...",Toast.LENGTH_SHORT).show();
+        Toast.makeText(WriteUp.this, "Data Inputed...",Toast.LENGTH_SHORT).show();
 
     }
 

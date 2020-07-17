@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WiseWords">
-        <activity android:name=".WisdomQuote"></activity>
+        <activity android:name=".Stories"></activity>
+        <activity android:name=".WriteUp" />
+        <activity android:name=".Motivational" />
+        <activity android:name=".WisdomQuote" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

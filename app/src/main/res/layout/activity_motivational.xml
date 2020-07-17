@@ -10,8 +10,7 @@
     android:backgroundTintMode="multiply"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".WisdomQuote">
-
+    tools:context=".Motivational">
 
 
 </LinearLayout>

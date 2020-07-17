@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1095754355055",
+    "firebase_url": "https://alc-meetup2.firebaseio.com",
+    "project_id": "alc-meetup2",
+    "storage_bucket": "alc-meetup2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095754355055:android:6831883d64ff0b16",
+        "android_client_info": {
+          "package_name": "com.app.android.june.alcmeetup20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095754355055-e8ef5405r2c4dk9ohmm3uq2ol07pore3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAr9iy3MvDUvx0fpoOyTH8Yv2lesBssmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095754355055-e8ef5405r2c4dk9ohmm3uq2ol07pore3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095754355055:android:bfc59b5e04628883ba189a",
+        "android_client_info": {
+          "package_name": "com.ayomi.wisewords"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095754355055-e8ef5405r2c4dk9ohmm3uq2ol07pore3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAr9iy3MvDUvx0fpoOyTH8Yv2lesBssmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095754355055-e8ef5405r2c4dk9ohmm3uq2ol07pore3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
