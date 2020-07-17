@@ -3,13 +3,13 @@
 
   "Motivational Quotes" : {
     "-MCPjXLckBSBIp_W4isM" : {
-      "name" : "Albert",
+      "Author" : "Albert",
       "quotes" : "a stich in time saves nine"
     },
 
 
     "-MCPjXLckBdBIp_W4isM" : {
-      "name" : "Adeout",
+      "Author" : "Adeout",
       "quotes" : "a tsdjktdku in time saves nine"
     }
   },
@@ -23,7 +23,7 @@
 
   "Stories" : {
     "-MCPmacK4Jc6L4x-IzeD" : {
-      "name" : "Olatunde Kemi",
+      "Author" : "Olatunde Kemi",
       "quotes" : "Money heist"
     }
   },
@@ -38,7 +38,7 @@
 
   "Wisdom Quotes" : {
     "-MCPkubM9keZPEqZJGGL" : {
-      "name" : "Ayomi",
+      "Author" : "Ayomi",
       "quotes" : "Being good makes you good"
     }
   },
@@ -54,7 +54,7 @@
   
   "Write Ups" : {
     "-MCPmC7uqxZh9BPOarvL" : {
-      "name" : "jemimah Dada",
+      "Author" : "jemimah Dada",
       "quotes" : "Boys before flower"
     }
   }
