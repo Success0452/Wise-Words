@@ -1,8 +1,8 @@
 # Wise-Words
 
-<b> <i> A simple Application, which is desing for Quotes and stories...</i></b> 
+<b> <i> A simple Application, which is design for Quotes and stories...</i></b> 
 
-<b> This is project is created for open source contribution. </b>
+<b> This project is created for open source contribution. </b>
 
 If you are interested in contributing to this project, you can easily follow the steps below to contribute:
 
@@ -20,6 +20,6 @@ If you are interested in contributing to this project, you can easily follow the
 
 - Commit and Pull Request
 
-Wait for your pull requst to be merged then boommmmmmmmmmmm... You have made your contribution(s) to the project.
+Wait for your pull request to be merged then boommmmmmmmmmmm... You have made your contribution(s) to the project.
 
 You can contribute as much as possible as there is no limit for contribution.
