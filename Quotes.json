@@ -16,6 +16,16 @@
     "-3" : {
       "Author" : "Kwane nkrumah",
       "quotes" : "I speak for freedom"
+    },
+
+    "-4" : {
+      "Author" : "Nelson Mandela",
+      "quotes": "“Education is the most powerful weapon which you can use to change the world.”"
+    },
+
+    "-5" : {
+      "Author" : "Nelson Mandela",
+      "quotes" : "“When a man is denied the right to live the life he believes in, he has no choice but to become an outlaw."
     }
   },
 
