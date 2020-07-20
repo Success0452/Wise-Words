@@ -55,7 +55,18 @@
     "-1000" : {
       "Author" : "Ayomi",
       "quotes" : "Being good makes you good"
+    },
+
+    "-1100" : {
+      "Author" : "Eleanor Roosevelt",
+      "quotes" : "No one can make you feel inferior without your consent"
+    },
+
+    "-1200" : {
+      "Author" : "Socrates",
+      "quotes" : "The only true wisdow is in knowing you know nothing"
     }
+
   },
 
 
