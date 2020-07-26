@@ -63,16 +63,15 @@ public class WriteUp extends AppCompatActivity {
                 firebaseViewHolder.author.setText(setQuotes.getName());
                 firebaseViewHolder.quotes.setText(setQuotes.getQuotes());
 
-                firebaseViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Intent intent = new Intent(WriteUp.this, Motivational.class);
-                        intent.putExtra("name", setQuotes.getName());
-                        intent.putExtra("quotes",setQuotes.getQuotes());
+/*
+                firebaseViewHolder.itemView.setOnClickListener(view -> {
+                    Intent intent = new Intent(WriteUp.this, Motivational.class);
+                    intent.putExtra("name", setQuotes.getName());
+                    intent.putExtra("quotes",setQuotes.getQuotes());
 
-                        startActivity(intent);
-                    }
+                    startActivity(intent);
                 });
+*/
 
             }
 

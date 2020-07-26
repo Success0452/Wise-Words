@@ -62,7 +62,7 @@ public class Motivational extends AppCompatActivity {
               firebaseViewHolder.author.setText(setQuotes.getName());
                 firebaseViewHolder.quotes.setText(setQuotes.getQuotes());
                 
-                firebaseViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
+                /*firebaseViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
                         Intent intent = new Intent(Motivational.this, Motivational.class);
@@ -71,7 +71,7 @@ public class Motivational extends AppCompatActivity {
 
                         startActivity(intent);
                     }
-                });
+                });*/
 
             }
 
