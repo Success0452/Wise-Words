@@ -26,7 +26,33 @@
     "-5" : {
       "Author" : "Nelson Mandela",
       "quotes" : "“When a man is denied the right to live the life he believes in, he has no choice but to become an outlaw."
+    },
+
+    "-6": {
+      "Author": "Mavin Gaye",
+      "quotes": "Marriage is miserable unless you find the right person that is your soulmate and that takes a lot of looking."
+    },
+
+    "-7": {
+      "Author": "Winston Churchill",
+      "quotes": "My most brilliant achievement was my ability to be able to persuade my wife to marry me."
+    },
+
+    "-8": {
+      "Author": "Emily Dickinson",
+      "quotes": "How strange that nature does not knock, and yet does not intrude!"
+    },
+
+   "-9": {
+      "Author": "Emily Dickinson",
+      "quotes": "Forever is composed of nows."
+    },
+
+    "-10": {
+      "Author": "Steve Wozniak",
+      "quotes": "My goal wasn't to make a ton of money. It was to build good computers."
     }
+
   },
 
 
