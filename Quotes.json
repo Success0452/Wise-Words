@@ -28,52 +28,81 @@
       "quotes" : "“When a man is denied the right to live the life he believes in, he has no choice but to become an outlaw."
     },
 
-    "-6" : {
+    "-6": {
+      "Author": "Mavin Gaye",
+      "quotes": "Marriage is miserable unless you find the right person that is your soulmate and that takes a lot of looking."
+    },
+
+    "-7": {
+      "Author": "Winston Churchill",
+      "quotes": "My most brilliant achievement was my ability to be able to persuade my wife to marry me."
+    },
+
+    "-8": {
+      "Author": "Emily Dickinson",
+      "quotes": "How strange that nature does not knock, and yet does not intrude!"
+    },
+
+   "-9": {
+      "Author": "Emily Dickinson",
+      "quotes": "Forever is composed of nows."
+    },
+
+    "-10": {
+      "Author": "Steve Wozniak",
+      "quotes": "My goal wasn't to make a ton of money. It was to build good computers."
+    }
+
+  },
+
+
+
+    "-11" : {
       "Author" : "Walt Disney",
       "quotes" : "“The way to get started is to quit talking and begin doing"
     },
 
-    "-7" : {
+    "-12" : {
       "Author" : "Will Rogers",
       "quotes" : "“Don't let yesterday take too much of today"
     },
 
-    "-8" : {
+    "-13" : {
       "Author" : "Vince Lombardi",
       "quotes" : "“Its not whether you get knocked down, its whether you get up"
     },
 
-    "-9" : {
+    "-14" : {
       "Author" : "Dr. Henry Link",
       "quotes" : "“We generate fears while we sit. We overcome them by actions"
     },
 
-    "-10" : {
+    "-15" : {
       "Author" : "John Wooden",
       "quotes" : "“Things work out best for those who make the best of how things work out"
     },
 
-    "-11" : {
+    "-16" : {
       "Author" : "Stephen Hawking",
       "quotes" : "“However difficult life may seem, there is always something you can do and succeed at"
     },
 
-    "-12" : {
+    "-17" : {
       "Author" : "Mark Twain",
       "quotes" : "“The secret of getting ahead is getting started"
     },
 
-    "-13" : {
+    "-18" : {
       "Author" : "Kurt Cobain",
       "quotes" : "“If opportunity doesn't knock, build the door"
     },
 
-    "-14" : {
+    "-19" : {
       "Author" : "Albert Einstein",
       "quotes" : "“In the middle of every difficulty lies opportunity."
     },
 
-    "-15" : {
+    "-20" : {
       "Author" : "John Wooden",
       "quotes" : "“Do the best you can. No one can do more than that."
     }
