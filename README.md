@@ -14,7 +14,7 @@ If you are interested in contributing to this project, you can easily follow the
 
 - Follow the format the quote is been added
 
-- Add your Quotes
+- Add your Quotes/stories/aiticle...
 
 - Save it
 
