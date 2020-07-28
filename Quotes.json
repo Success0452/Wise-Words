@@ -115,7 +115,7 @@
   "Stories" : {
     "-500" : {
       "Author" : "Olatunde Kemi",
-      "quotes" : "Money heist"
+      "stories" : "Money heist"
     }
   },
 
@@ -155,7 +155,7 @@
   "Write Ups" : {
     "-1500" : {
       "Author" : "jemimah Dada",
-      "quotes" : "Boys before flower"
+      "write-ups" : "Boys before flower"
     }
   }
 }
