@@ -60,16 +60,16 @@ public class Motivational extends AppCompatActivity {
             protected void onBindViewHolder(@NonNull FirebaseViewHolder firebaseViewHolder, int i, @NonNull final SetQuotes setQuotes) {
 
               firebaseViewHolder.author.setText(setQuotes.getName());
-                firebaseViewHolder.quotes.setText(setQuotes.getQuotes());
+              firebaseViewHolder.quotes.setText(setQuotes.getQuotes());
                 
                 /*firebaseViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
                         Intent intent = new Intent(Motivational.this, Motivational.class);
-                        intent.putExtra("name", setQuotes.getName());
+                        intent.putExtra("Author", setQuotes.getName());
                         intent.putExtra("quotes",setQuotes.getQuotes());
 
-                        startActivity(intent);
+                        //startActivity(intent);
                     }
                 });*/
 
