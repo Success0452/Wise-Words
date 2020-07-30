@@ -141,7 +141,25 @@
     "-1200" : {
       "Author" : "Socrates",
       "quotes" : "The only true wisdow is in knowing you know nothing"
-    }
+    },
+
+      "-1300" : {
+      "Author" : "Langston Hughes",
+      "quotes" : "Hold fast to dreams,For if dreams dieLife is a broken-winged bird, That cannot fly."
+    },
+
+      "-1400" : {
+      "Author" : "Albert Einstein",
+      "quotes" : "Any fool can know. The point is to understand"
+    },
+
+      "-1500" : {
+      "Author" : "Oprah Winfrey",
+      "quotes" : "Turn your wounds into wisdom."
+    },
+
+
+
 
   },
 
