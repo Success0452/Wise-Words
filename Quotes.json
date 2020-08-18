@@ -158,9 +158,27 @@
       "quotes" : "Turn your wounds into wisdom."
     },
 
+      "-1600" : {
+      "Author" : "Brian Norgard",
+      "quotes" : "The companies that succeed are mistake fixing machines."
+    },
+      "-1700" : {
+      "Author" : "Sam Altman",
+      "quotes" : "A company becomes the people it hires, not the plan it makes."
+    },
+      "-1800" : {
+      "Author" : "Naval Ravikant",
+      "quotes" : "We didn’t set out to build a product. We set out to solve a problem."
+    },
+      "-1900" : {
+      "Author" : "John Lasseter",
+      "quotes" : "Quality is the best business plan."
+    },
 
-
-
+      "-2000" : {
+      "Author" : "Reid Hoffman",
+      "quotes" : "Don’t try to beat the competitors at their own game. You have to invent a new game — and master it."
+    },
   },
 
 
