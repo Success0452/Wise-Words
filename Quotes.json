@@ -1,0 +1,203 @@
+{
+
+
+  "Motivational Quotes" : {
+    "-1" : {
+      "Author" : "Albert",
+      "quotes" : "a stich in time saves nine"
+    },
+
+
+    "-2" : {
+      "Author" : "Adeout",
+      "quotes" : "a tsdjktdku in time saves nine"
+    },
+
+    "-3" : {
+      "Author" : "Kwane nkrumah",
+      "quotes" : "I speak for freedom"
+    },
+
+    "-4" : {
+      "Author" : "Nelson Mandela",
+      "quotes": "“Education is the most powerful weapon which you can use to change the world.”"
+    },
+
+    "-5" : {
+      "Author" : "Nelson Mandela",
+      "quotes" : "“When a man is denied the right to live the life he believes in, he has no choice but to become an outlaw."
+    },
+
+    "-6": {
+      "Author": "Mavin Gaye",
+      "quotes": "Marriage is miserable unless you find the right person that is your soulmate and that takes a lot of looking."
+    },
+
+    "-7": {
+      "Author": "Winston Churchill",
+      "quotes": "My most brilliant achievement was my ability to be able to persuade my wife to marry me."
+    },
+
+    "-8": {
+      "Author": "Emily Dickinson",
+      "quotes": "How strange that nature does not knock, and yet does not intrude!"
+    },
+
+   "-9": {
+      "Author": "Emily Dickinson",
+      "quotes": "Forever is composed of nows."
+    },
+
+    "-10": {
+      "Author": "Steve Wozniak",
+      "quotes": "My goal wasn't to make a ton of money. It was to build good computers."
+    }
+
+  },
+
+
+
+    "-11" : {
+      "Author" : "Walt Disney",
+      "quotes" : "“The way to get started is to quit talking and begin doing"
+    },
+
+    "-12" : {
+      "Author" : "Will Rogers",
+      "quotes" : "“Don't let yesterday take too much of today"
+    },
+
+    "-13" : {
+      "Author" : "Vince Lombardi",
+      "quotes" : "“Its not whether you get knocked down, its whether you get up"
+    },
+
+    "-14" : {
+      "Author" : "Dr. Henry Link",
+      "quotes" : "“We generate fears while we sit. We overcome them by actions"
+    },
+
+    "-15" : {
+      "Author" : "John Wooden",
+      "quotes" : "“Things work out best for those who make the best of how things work out"
+    },
+
+    "-16" : {
+      "Author" : "Stephen Hawking",
+      "quotes" : "“However difficult life may seem, there is always something you can do and succeed at"
+    },
+
+    "-17" : {
+      "Author" : "Mark Twain",
+      "quotes" : "“The secret of getting ahead is getting started"
+    },
+
+    "-18" : {
+      "Author" : "Kurt Cobain",
+      "quotes" : "“If opportunity doesn't knock, build the door"
+    },
+
+    "-19" : {
+      "Author" : "Albert Einstein",
+      "quotes" : "“In the middle of every difficulty lies opportunity."
+    },
+
+    "-20" : {
+      "Author" : "John Wooden",
+      "quotes" : "“Do the best you can. No one can do more than that."
+    },
+
+      "-21" : {
+      "Author" : "Stephen Hawking",
+      "quotes" : "Remember to look up at the stars and not down at your feet. Try to make sense of what you see and wonder about what makes the Universe exist. Be curious. And however difficult life may seem, there is always something you can do and succeed at. It matters that you don't just give up."
+    }
+
+  },
+
+
+
+
+
+  "Stories" : {
+    "-500" : {
+      "Author" : "Olatunde Kemi",
+      "stories" : "Money heist"
+    }
+  },
+
+
+
+
+
+
+
+
+
+  "Wisdom Quotes" : {
+    "-1000" : {
+      "Author" : "Ayomi",
+      "quotes" : "Being good makes you good"
+    },
+
+    "-1100" : {
+      "Author" : "Eleanor Roosevelt",
+      "quotes" : "No one can make you feel inferior without your consent"
+    },
+
+    "-1200" : {
+      "Author" : "Socrates",
+      "quotes" : "The only true wisdow is in knowing you know nothing"
+    },
+
+      "-1300" : {
+      "Author" : "Langston Hughes",
+      "quotes" : "Hold fast to dreams,For if dreams dieLife is a broken-winged bird, That cannot fly."
+    },
+
+      "-1400" : {
+      "Author" : "Albert Einstein",
+      "quotes" : "Any fool can know. The point is to understand"
+    },
+
+      "-1500" : {
+      "Author" : "Oprah Winfrey",
+      "quotes" : "Turn your wounds into wisdom."
+    },
+
+      "-1600" : {
+      "Author" : "Brian Norgard",
+      "quotes" : "The companies that succeed are mistake fixing machines."
+    },
+      "-1700" : {
+      "Author" : "Sam Altman",
+      "quotes" : "A company becomes the people it hires, not the plan it makes."
+    },
+      "-1800" : {
+      "Author" : "Naval Ravikant",
+      "quotes" : "We didn’t set out to build a product. We set out to solve a problem."
+    },
+      "-1900" : {
+      "Author" : "John Lasseter",
+      "quotes" : "Quality is the best business plan."
+    },
+
+      "-2000" : {
+      "Author" : "Reid Hoffman",
+      "quotes" : "Don’t try to beat the competitors at their own game. You have to invent a new game — and master it."
+    },
+  },
+
+
+
+
+
+
+
+  
+  "Write Ups" : {
+    "-1500" : {
+      "Author" : "jemimah Dada",
+      "write-ups" : "Boys before flower"
+    }
+  }
+}

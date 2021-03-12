@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(storiesIntent);
                 break;
             case R.id.nav_app_info:
-                appInfo();
+                appInformation();
                 break;
             case R.id.nav_changelog:
                changeLog();
@@ -97,7 +97,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     public void wisdomQuotes(View view) {
-        Toast.makeText(this, "Wisdom Quote clicked", Toast.LENGTH_SHORT).show();
+        Intent wisdomIntent = new Intent(MainActivity.this, WisdomQuote.class);
+        startActivity(wisdomIntent);
     }
 
     public void otherApps(View view) {
@@ -109,15 +110,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     public void stories(View view) {
-        Toast.makeText(this, "Stories clicked", Toast.LENGTH_SHORT).show();
+        Intent storiesIntent = new Intent(MainActivity.this, Stories.class);
+        startActivity(storiesIntent);
     }
 
     public void writeUps(View view) {
-        Toast.makeText(this, "WriteUps clicked", Toast.LENGTH_SHORT).show();
+        Intent writeUpsIntent = new Intent(MainActivity.this, WriteUp.class);
+        startActivity(writeUpsIntent);
     }
 
     public void motivationalQuotes(View view) {
-        Toast.makeText(this, "Motivational Quote clicked", Toast.LENGTH_SHORT).show();
+        Intent motivationalntent = new Intent(MainActivity.this, Motivational.class);
+        startActivity(motivationalntent);
     }
 
     private void changeLog() {
@@ -153,16 +157,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void appInformation() {
-        new AlertDialog.Builder(this).setIcon(R.drawable.fuoye).setTitle("About Fsocial")
-                .setMessage("Fsocial is a Social Media Application specifically Designed" +
-                        " to meet the social needs of Fuoye Student and its a Medium where you can " +
-                        "connect and chat with fuoye student both in Oye and Ikole Campus" +
-                        "(Aspirant who also wants to know more about Fuoye can Join ) Feel free to explore the Application" + "\n" + "\n" + "Version 2.1.0" + "\n" + "\n" + "\n" + " © 2020 Fsocial")
-                .setNegativeButton("Dismiss", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        MainActivity.super.onStart();
-                    }
-                }).create().show();
+        new AlertDialog.Builder(this).setIcon(R.drawable.ic_launcher_background).setTitle("About Words of Wisdom")
+                .setMessage("WoW is an Inspirational Mobile Application specifically Designed" +
+                        " to meet the needs of motivational people and its a Medium where you can " +
+                        "read and share motivational quotes, inspiring stories and some beautiful write-ups with friends and family" +
+                         "\n" + "\n" + "Version 1.0" + "\n" + "\n" + "\n" + " © 2020 W.O.W")
+                .setNegativeButton("Dismiss", (dialog, which) -> MainActivity.super.onStart()).create().show();
     }
 }
